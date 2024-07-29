@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+::selection {
+  background-color: #5671a0;
+  color: #010409;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2d3e5c;
+  border-radius: 20rem;
+  margin: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7f95b9;
+  border-radius: 20rem;
+}
+
+body {
+  color: #f8f8ff;
+  background-color: #010409;
+  font-family: "Sora", sans-serif;
+  margin: 4rem;
+}
+
+main {
+  margin: 5rem 0rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  position: relative;
+  width: fit-content;
+  min-width: fit-content;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 5rem 0rem;
+}
+
+p {
+  font-size: 1rem;
+  position: relative;
+}
+
+.txt {
+  font-size: 1.3rem;
+}
+
+a {
+  font-size: 1.3rem;
+  color: #f8f8ff;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #475977;
+}
+
+.line {
+  background-color: #2d3e5c;
+  width: 0.2rem;
+  height: 5rem;
+  position: relative;
+  margin: 1rem 2rem;
+}
+
+.key {
+  background-color: #060f1d;
+  border: 2px solid #2d3e5c;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.box {
+  background-color: #060f1d;
+  border: 2px solid #2d3e5c;
+  width: fit-content;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+table {
+  background-color: #131f33;
+  border-collapse: separate;
+  border-spacing: 1rem;
+  border: 1px solid #f8f8ff;
+  border-radius: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #f8f8ff;
+  padding: 10px;
+  text-align: left;
+}
+
+table tr th,
+td {
+  border-radius: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #060f1d;
+  color: #475977;
+  border: 2px solid #2d3e5c;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 3rem 2rem;
+  margin: 5rem -3rem -3rem -3rem;
+  border-radius: 1rem;
+}
